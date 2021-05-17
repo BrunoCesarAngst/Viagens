@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E42537E52652F897004B0C13 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42537E42652F897004B0C13 /* Viagem.swift */; };
 		E4E22BB82652A0C300E6FA79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E22BB72652A0C300E6FA79 /* AppDelegate.swift */; };
 		E4E22BBA2652A0C400E6FA79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E22BB92652A0C400E6FA79 /* SceneDelegate.swift */; };
 		E4E22BBC2652A0C400E6FA79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E22BBB2652A0C400E6FA79 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E42537E42652F897004B0C13 /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		E4E22BB42652A0C300E6FA79 /* Viagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E22BB72652A0C300E6FA79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4E22BB92652A0C400E6FA79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				E4E22BB72652A0C300E6FA79 /* AppDelegate.swift */,
 				E4E22BB92652A0C400E6FA79 /* SceneDelegate.swift */,
 				E4E22BBB2652A0C400E6FA79 /* ViewController.swift */,
+				E42537E42652F897004B0C13 /* Viagem.swift */,
 				E4E22BBD2652A0C400E6FA79 /* Main.storyboard */,
 				E4E22BC02652A0C800E6FA79 /* Assets.xcassets */,
 				E4E22BC22652A0C800E6FA79 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42537E52652F897004B0C13 /* Viagem.swift in Sources */,
 				E4E22BBC2652A0C400E6FA79 /* ViewController.swift in Sources */,
 				E4E22BB82652A0C300E6FA79 /* AppDelegate.swift in Sources */,
 				E4E22BBA2652A0C400E6FA79 /* SceneDelegate.swift in Sources */,
