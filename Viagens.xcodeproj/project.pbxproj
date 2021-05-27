@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4226A16265FB17A00A74AC6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4226A15265FB17A00A74AC6 /* TableViewCell.swift */; };
+		E4226A18265FB7F300A74AC6 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = E4226A17265FB7F300A74AC6 /* Assets */; };
+		E4226A20265FDAC100A74AC6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4226A1F265FDAC100A74AC6 /* File.swift */; };
 		E42537E52652F897004B0C13 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42537E42652F897004B0C13 /* Viagem.swift */; };
 		E4E22BB82652A0C300E6FA79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E22BB72652A0C300E6FA79 /* AppDelegate.swift */; };
 		E4E22BBA2652A0C400E6FA79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E22BB92652A0C400E6FA79 /* SceneDelegate.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4226A15265FB17A00A74AC6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E4226A17265FB7F300A74AC6 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = "../../../Downloads/Arquivos Projeto/Assets"; sourceTree = "<group>"; };
+		E4226A1F265FDAC100A74AC6 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		E42537E42652F897004B0C13 /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		E4E22BB42652A0C300E6FA79 /* Viagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E22BB72652A0C300E6FA79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4226A19265FC68700A74AC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E42537E42652F897004B0C13 /* Viagem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4226A1A265FC7CB00A74AC6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E4226A1B265FC86800A74AC6 /* Controller */,
+				E4226A1C265FC88F00A74AC6 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E4226A1B265FC86800A74AC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4E22BBB2652A0C400E6FA79 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4226A1C265FC88F00A74AC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4226A15265FB17A00A74AC6 /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4226A1D265FCA3700A74AC6 /* ViagemDAO */ = {
+			isa = PBXGroup;
+			children = (
+				E4226A1F265FDAC100A74AC6 /* File.swift */,
+			);
+			path = ViagemDAO;
+			sourceTree = "<group>";
+		};
 		E4E22BAB2652A0C300E6FA79 = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				E4E22BB72652A0C300E6FA79 /* AppDelegate.swift */,
+				E4226A1A265FC7CB00A74AC6 /* Home */,
+				E4226A19265FC68700A74AC6 /* Model */,
+				E4226A1D265FCA3700A74AC6 /* ViagemDAO */,
+				E4226A17265FB7F300A74AC6 /* Assets */,
 				E4E22BB92652A0C400E6FA79 /* SceneDelegate.swift */,
-				E4E22BBB2652A0C400E6FA79 /* ViewController.swift */,
-				E42537E42652F897004B0C13 /* Viagem.swift */,
 				E4E22BBD2652A0C400E6FA79 /* Main.storyboard */,
 				E4E22BC02652A0C800E6FA79 /* Assets.xcassets */,
 				E4E22BC22652A0C800E6FA79 /* LaunchScreen.storyboard */,
@@ -128,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E22BC42652A0C800E6FA79 /* LaunchScreen.storyboard in Resources */,
+				E4226A18265FB7F300A74AC6 /* Assets in Resources */,
 				E4E22BC12652A0C800E6FA79 /* Assets.xcassets in Resources */,
 				E4E22BBF2652A0C400E6FA79 /* Main.storyboard in Resources */,
 			);
@@ -141,7 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42537E52652F897004B0C13 /* Viagem.swift in Sources */,
+				E4226A20265FDAC100A74AC6 /* File.swift in Sources */,
 				E4E22BBC2652A0C400E6FA79 /* ViewController.swift in Sources */,
+				E4226A16265FB17A00A74AC6 /* TableViewCell.swift in Sources */,
 				E4E22BB82652A0C300E6FA79 /* AppDelegate.swift in Sources */,
 				E4E22BBA2652A0C400E6FA79 /* SceneDelegate.swift in Sources */,
 			);
